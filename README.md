@@ -11,5 +11,12 @@ npm install -g ionic cordova
 #### npm -v
 #### cordova -v
 
+https://ionicframework.com/getting-started#cli
+
+#### $ ionic start myApp sidemenu
+
+#### $ ionic serve
+
+
 
 
