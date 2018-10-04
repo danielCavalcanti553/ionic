@@ -26,13 +26,21 @@ https://ionicframework.com/getting-started#cli
 ### Criar o arquivo home.module.ts na pagina home
 
 import { IonicPageModule } from 'ionic-angular/module';
+
 import { NgModule } from '@angular/core';
+
 import { HomePage } from './home';
+
 @NgModule({
+
  declarations: [HomePage],
+ 
  imports: [IonicPageModule.forChild(HomePage)]
+ 
 })
+
 export class HomeModule {
+
 }
 
 ### Em home.ts, incluir @IonicPage()
