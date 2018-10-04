@@ -43,7 +43,7 @@ export class HomeModule {
 
 }
 ]
-### home.ts, incluir @IonicPage()
+#### home.ts, incluir @IonicPage()
 import { Component } from '@angular/core';
 
 import { NavController, IonicPage } from 'ionic-angular';
@@ -67,7 +67,7 @@ export class HomePage {
 }
 
 
-### app.module.ts, retirar as referências para HomePage
+#### app.module.ts, retirar as referências para HomePage
 
 import { BrowserModule } from '@angular/platform-browser';
 
