@@ -122,8 +122,11 @@ export class AppModule {}
 
 ### app.components.ts, declarar a RootPage como um string, retirar import de HomePage
 import { Component, ViewChild } from '@angular/core';
+
 import { Nav, Platform } from 'ionic-angular';
+
 import { StatusBar } from '@ionic-native/status-bar';
+
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 
