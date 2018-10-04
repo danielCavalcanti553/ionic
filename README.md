@@ -161,3 +161,6 @@ export class MyApp {
 
   ....
   
+  
+  ## Criar nova página
+  #### $ ionic generate page Categorias
