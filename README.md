@@ -24,7 +24,7 @@ https://ionicframework.com/getting-started#cli
 
 # Lazy Loading (sidemenu)
 ### Criar o arquivo home.module.ts na pagina home
-
+[
 import { IonicPageModule } from 'ionic-angular/module';
 
 import { NgModule } from '@angular/core';
@@ -42,7 +42,7 @@ import { HomePage } from './home';
 export class HomeModule {
 
 }
-
+]
 ### home.ts, incluir @IonicPage()
 import { Component } from '@angular/core';
 
